@@ -15060,6 +15060,8 @@ h2.title {
 }
 
 .year-pub {
+    box-sizing: border-box;
+    width: 100%;
     font-weight: 400;
     font-family: "Roboto", "Times New Roman", serif;
     color: #3C4858;
@@ -15068,6 +15070,18 @@ h2.title {
     margin-left: 0rem;
     margin-top: 2em;
     margin-bottom: 0.5em;
+}
+
+.titlesub {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1.3rem;
+    font-family: "Roboto", "Times New Roman", serif;
+    color: #3C4858;
+    text-decoration: none;
+    margin-left: 0rem;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
 
 .description,
